@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+}
+
+.startBtn{
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    
+    background-color: coral;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-top: 25%;
+    
+    color: #ffffff;
+    text-align: center;
+    line-height: 130%;
+    font-size: 500%;
+    font-weight: bold;
+
+    box-shadow: 8px 8px 0px rgb(255, 70, 70);
+    transition: .3s;
+}.startBtn:hover{
+    box-shadow: 5px 5px 0px rgb(255, 70, 70);
+    transition: .3s;
+}.startBtn:active{
+    box-shadow: inset 8px 8px 0px rgb(255, 70, 70);
+    transition: .3s;
+}
